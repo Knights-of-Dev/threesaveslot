@@ -10,7 +10,8 @@ savelist = []
 
 
 def createsavefile(name = "savefile"):
-  open(name, "x")
+  with open(name + ".json", "w") as f:
+    json.dump([], f)
 
 
 def basicsave(listtosave = savelist, filename = "savefile"):
