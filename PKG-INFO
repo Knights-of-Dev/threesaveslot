@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
-Name: moduleName
+Name: threesaveslot
 Version: 1.0.0
 Summary: module summary
 Home-page: GitHub repo URL
-Author: GitHub author name, probably dont change the below option
+Author: Pitchfork
 Author-email: email@example.com
 License: MIT
-Keywords: keywords, here, just, seperate, by, commas!, dont, change, the, below, parameters
+Keywords: python
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
