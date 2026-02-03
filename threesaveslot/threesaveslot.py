@@ -22,7 +22,7 @@ def basicsave(listtosave = savelist, filename = "savefile"):
 def basicload(listtoload = "savelist", filename = "savefile"):
   filename = str(filename)
   global savelist
-  if listtoload == "savefile":
+  if listtoload == "savelist":
     open(filename + ".json") as f:
       savelist = json.load(f)
   else:
