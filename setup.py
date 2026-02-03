@@ -1,0 +1,31 @@
+from setuptools import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
+setup(
+    name='moduleName',
+    version='0.1.0',    
+    description='description here. each time you want to update your module, make sure the version above doesnt already exist!',
+    url='GitHub Repo URL here',
+    author='author. dont change the below if you dont want to get doxxed somehow. if your module uses only built-in ones, dont change install_requires please.',
+    author_email='example@example.com',    
+    license='MIT',
+    packages=['moduleName'],
+    install_requires=[],
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: Freeware',  
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.14',
+        'Programming Language :: Python :: 3.15'
+    ],
+)    
