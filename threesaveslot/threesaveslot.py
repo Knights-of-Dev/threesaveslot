@@ -19,8 +19,13 @@ def basicsave(listtosave = savelist, filename = "savefile"):
     json.dump(listtosave, f)
 
 
-def basicload(filename = "savefile"):
+def basicload(listtoload = "savelist", filename = "savefile"):
   filename = str(filename)
-  open(filename + ".json") as f:
-    return json.load(f)
+  global savelist
+  if listtoload == "savefile":
+    open(filename + ".json") as f:
+      savelist = json.load(f)
+  else:
+    open(filename + ".json") as f:
+      return json.load(f)
   
