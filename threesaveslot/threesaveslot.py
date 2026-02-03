@@ -23,9 +23,9 @@ def basicload(listtoload = "savelist", filename = "savefile"):
   filename = str(filename)
   global savelist
   if listtoload == "savelist":
-    open(filename + ".json") as f:
+    with open(filename + ".json") as f:
       savelist = json.load(f)
   else:
-    open(filename + ".json") as f:
+    with open(filename + ".json") as f:
       return json.load(f)
   
