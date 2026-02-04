@@ -5,7 +5,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='threesaveslot',
-    version='1.0.0',    
+    version='1.1.0',    
     description='description here. each time you want to update your module, make sure the version above doesnt already exist!',
     url='https://github.com/Knights-of-Dev/threesaveslot',
     author='Pitchfork',
