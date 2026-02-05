@@ -1,6 +1,19 @@
 # Threesaveslot
 
 
+## Install
+
+```
+pip install threesaveslot
+```
+
+or
+
+```
+python -m pip install --user threesaveslot
+```
+
+
 ## Documentation
 
 
